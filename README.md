@@ -1,4 +1,4 @@
-# FYC Web-Only Framework
+# Web-Only Framework
 
 A Python + Playwright + pytest-bdd framework for web-only test automation. This framework has been migrated away from device-based automation (Roku, Android, iOS, Appium) to a pure web approach.
 
@@ -84,10 +84,6 @@ project_root/
   ├── requirements.txt
   └── README.md
 ```
-
-## FY037 Fix Summary
-
-The FY037 step `Verify Email Input Field Is Not Present` previously had a bug where `self.locators["EMAIL_INPUT_FIELD"]` key was missing from the page object's locators dictionary. The `except Exception` blanket-catch silently converted `KeyError` into "field absent", causing the assertion to always pass regardless of the field's actual state.
 
 **Fix applied:**
 1. Added `EMAIL_INPUT_FIELD: (".//input[@name='username']")` to the `locators` dictionary (reuses the existing `CLIENT_EMAIL_FIELD` selector)
