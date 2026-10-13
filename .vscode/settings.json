@@ -1,0 +1,44 @@
+{
+
+    "flake8.args": [
+    "--max-line-length=250"
+],
+
+"python.analysis.extraPaths": [
+    "./pages",
+    "./rootfolder"
+],
+"python.testing.unittestEnabled": false,
+"python.testing.pytestEnabled": true,
+"python.testing.pytestArgs": ["--bdd"],
+"python.autoComplete.extraPaths": [
+    "${workspaceFolder}/tests",
+    "${workspaceFolder}/tests/features",
+    "${workspaceFolder}/tests/step_defs"
+],
+"PytestBdd.parser": "Parser",
+"python.languageServer": "Pylance",
+
+"cucumberautocomplete.steps": [
+    "tests/step_defs/*.py",
+    "tests/step_defs/**/*.py"
+],
+"cucumberautocomplete.syncfeatures": "features/**/*feature",
+"cucumberautocomplete.strictGherkinCompletion": true,
+"cucumberautocomplete.smartSnippets": true,
+"cucumberautocomplete.stepsInvariants": true,
+"cucumberautocomplete.customParameters": [],
+"cucumberautocomplete.formatConfOverride": {
+    "And": 1,
+    "But": 1,
+    "Feature": 1,
+    "Scenario": 1,
+    "Background": 1,
+    "Given": 1,
+    "Then": 1,
+    "When": 1
+}
+
+
+}
+

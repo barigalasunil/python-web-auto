@@ -1,0 +1,5 @@
+playwright>=1.42.0
+pytest>=8.0.0
+pytest-bdd>=9.0.0
+reporting-labs
+allure-pytest>=2.16.2

@@ -1,0 +1,137 @@
+[
+ {
+  "time": 1791803965855.9292,
+  "duration": 9388.42626953125,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "pytest::smoke/login.feature::login \u203a Standard user login validates page structure": [
+    "p",
+    7265
+   ]
+  }
+ },
+ {
+  "time": 1791804087612.2524,
+  "duration": 4190.19287109375,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "pytest::smoke/login.feature::login \u203a Standard user login validates page structure": [
+    "p",
+    2087
+   ]
+  }
+ },
+ {
+  "time": 1791804153620.6965,
+  "duration": 2969.428955078125,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "pytest::smoke/login.feature::login \u203a Standard user login validates page structure": [
+    "p",
+    1368
+   ]
+  }
+ },
+ {
+  "time": 1791804195686.155,
+  "duration": 4455.309326171875,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "pytest::smoke/login.feature::login \u203a Standard user login validates page structure": [
+    "p",
+    1346
+   ]
+  }
+ },
+ {
+  "time": 1791804244433.9565,
+  "duration": 4774.860595703125,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "pytest::smoke/login.feature::login \u203a Standard user login validates page structure": [
+    "p",
+    1683
+   ]
+  }
+ },
+ {
+  "time": 1791804288350.2927,
+  "duration": 5520.212646484375,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "pytest::smoke/login.feature::login \u203a Standard user login validates page structure": [
+    "p",
+    2418
+   ]
+  }
+ },
+ {
+  "time": 1791804344713.6765,
+  "duration": 5276.14697265625,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "pytest::smoke/login.feature::login \u203a Standard user login validates page structure": [
+    "p",
+    2162
+   ]
+  }
+ },
+ {
+  "time": 1791865900774.7935,
+  "duration": 18422.9267578125,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "pytest::smoke/login.feature::login \u203a Standard user login validates page structure": [
+    "p",
+    15158
+   ]
+  }
+ },
+ {
+  "time": 1791865961633.5083,
+  "duration": 6440.543701171875,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "pytest::smoke/login.feature::login \u203a Standard user login validates page structure": [
+    "p",
+    3249
+   ]
+  }
+ }
+]

@@ -1,0 +1,12 @@
+allure-results/
+pytest.log
+__pycache__
+pages/actions/__pycache__
+pytest.log
+__pycache__/*.pyc
+chromedriver.zip
+reports/*
+rokuscreenshot/*.jpeg
+*.log
+.venv/
+test-results/

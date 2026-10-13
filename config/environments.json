@@ -1,0 +1,12 @@
+{
+  "dev": {
+    "base_url": "https://dev-app.devtest.indee.tv/staff_login",
+    "nimaad_base_url": "https://dev-api-int.devtest.indee.tv/nimad",
+    "qaa_server": "qa8"
+  },
+  "staging": {
+    "base_url": "https://staging-app.devtest.indee.tv/staff_login",
+    "nimaad_base_url": "https://staging-api-int.devtest.indee.tv/nimad",
+    "qaa_server": "staging"
+  }
+}

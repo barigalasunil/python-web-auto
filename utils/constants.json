@@ -1,0 +1,18 @@
+{
+    "ULTRA_WAIT": 1,
+    "SHORT_WAIT": 5,
+    "DEFAULT_WAIT": 10,
+    "LONG_WAIT": 60,
+    "SUPER_WAIT": 180,
+    "DYNAMIC_WAIT": 100,
+    "NEED_SCREENSHOTS_FOR_PASS": true,
+    "IMPLICIT_WAIT": 10,
+    "admin_app_url": "https://{}-app.devtest.indee.tv/staff_login",
+    "nimaad_app_url": "https://{}-api-int.devtest.indee.tv/nimad",
+    "cinema_app_url": "https://qa8-watch.devtest.indee.tv/indee/screeners/room?screener_room_key=scr-01j8s64zhk1p5cxxdtg9xbwqehsgatz4",
+    "nimaad_url": "https://{}-api-int.devtest.indee.tv/nimad",
+    "QA_SERVER": "qa8",
+    "Admin_Project_Name": "Project_Automationc8",
+    "Fyc_Admin_Project_Name_To_Publish": "Automation_Test_ProjectH4",
+    "Fyc_Admin_Project_To_Delete": "Automation_Project_FYCF1"
+}
